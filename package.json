@@ -1,0 +1,31 @@
+{
+  "name": "mogy-ovh",
+  "main": "./index.js",
+  "version": "0.1.0",
+  "description": "OVH activities for Mogy",
+  "author": {
+    "name": "Eric Abouaf",
+    "email": "eric.abouaf@gmail.com"
+  },
+  "keywords": [
+    "mogy-activity",
+    "ovh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/neyric/mogy-ovh.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "soap": "^0.6.0"
+  },
+  "activities": {
+    "ovh": {
+      "defaultTaskHeartbeatTimeout": "NONE",
+      "defaultTaskScheduleToCloseTimeout": "NONE",
+      "defaultTaskScheduleToStartTimeout": "NONE",
+      "defaultTaskStartToCloseTimeout": "NONE",
+      "description": "Perform an HTTP Request"
+    }
+  }
+}
